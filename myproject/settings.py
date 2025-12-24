@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-l$hld0-mw%kkc22ua%x+@_wt6h1_cuccq@02r+(9o5=cd0zupg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "webformbackend-4.onrender.com"
+]
 
 
 # Application definition
@@ -55,9 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
 ]
-CORS_ALLOW_ALL_ORIGINS =[
-    "webformbackend-4.onrender.com"
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 

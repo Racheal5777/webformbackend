@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-l$hld0-mw%kkc22ua%x+@_wt6h1_cuccq@02r+(9o5=cd0zupg
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "webformbackend-7.onrender.com"
-    ".onrender.com"
+    '*'
 ]
 
 
